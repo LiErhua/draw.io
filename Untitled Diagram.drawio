@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-30T12:18:56.143Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="YDKv0l2Cty8vS1meNlpz" version="15.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-30T12:54:37.996Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="Tx56xgCJyRIARgD-kNuO" version="15.7.0" type="github">
   <diagram id="WysSDMZiBoA45H_Ge83W" name="Page-1">
     <mxGraphModel dx="946" dy="588" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -89,43 +89,43 @@
         <mxCell id="LCmJqE01S7JY0HaJgBqR-3" value="" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="260" y="610" width="20" height="310" as="geometry" />
         </mxCell>
-        <mxCell id="LCmJqE01S7JY0HaJgBqR-4" value="点击登录，提示输入登陆码" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="LCmJqE01S7JY0HaJgBqR-3">
+        <mxCell id="LCmJqE01S7JY0HaJgBqR-4" value="点击登录，提示输入登陆码&lt;br&gt;登陆码需提前申请好" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="LCmJqE01S7JY0HaJgBqR-3">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="15" y="90" as="sourcePoint" />
-            <mxPoint x="214.5" y="90" as="targetPoint" />
+            <mxPoint x="15" y="128" as="sourcePoint" />
+            <mxPoint x="214.5" y="128" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="85" y="90" />
-              <mxPoint x="135" y="90" />
+              <mxPoint x="85" y="128" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="LCmJqE01S7JY0HaJgBqR-6" value="LaTeX 网站" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="425" y="610" width="100" height="310" as="geometry" />
         </mxCell>
-        <mxCell id="LCmJqE01S7JY0HaJgBqR-7" value="调用后台验证系统" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="LCmJqE01S7JY0HaJgBqR-6" target="LCmJqE01S7JY0HaJgBqR-12">
+        <mxCell id="LCmJqE01S7JY0HaJgBqR-7" value="调用后台验证系统" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="LCmJqE01S7JY0HaJgBqR-6">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="50" y="130" as="sourcePoint" />
-            <mxPoint x="130" y="130" as="targetPoint" />
+            <mxPoint x="50" y="159" as="sourcePoint" />
+            <mxPoint x="249.5" y="159" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="LCmJqE01S7JY0HaJgBqR-12" value="&lt;span style=&quot;text-align: left&quot;&gt;权限认证后台服务&lt;/span&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="625" y="610" width="100" height="310" as="geometry" />
         </mxCell>
         <mxCell id="LCmJqE01S7JY0HaJgBqR-13" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="LCmJqE01S7JY0HaJgBqR-12">
-          <mxGeometry x="45" y="185" width="10" height="40" as="geometry" />
+          <mxGeometry x="45" y="213" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="LCmJqE01S7JY0HaJgBqR-14" value="验证登录码&lt;br&gt;是否正确，如果&lt;br&gt;正确，则销毁此登陆码&lt;br&gt;保证不会被二次使用" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" parent="LCmJqE01S7JY0HaJgBqR-12" target="LCmJqE01S7JY0HaJgBqR-13">
+        <mxCell id="LCmJqE01S7JY0HaJgBqR-14" value="验证登录码&lt;br&gt;是否正确，跟服务器的比对&lt;br&gt;如果正确，则销毁此登陆码&lt;br&gt;保证不会被二次使用" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" parent="LCmJqE01S7JY0HaJgBqR-12">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="50" y="130" as="sourcePoint" />
+            <mxPoint x="50" y="160" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="80" y="130" />
+              <mxPoint x="80" y="160" />
             </Array>
+            <mxPoint x="55" y="215" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="LCmJqE01S7JY0HaJgBqR-15" value="开放所有的页面的权限" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="674.5" y="835" as="sourcePoint" />
-            <mxPoint x="474.5" y="835" as="targetPoint" />
+            <mxPoint x="674.5" y="863" as="sourcePoint" />
+            <mxPoint x="474.5" y="863" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="LCmJqE01S7JY0HaJgBqR-19" value="用户看到文章与资源" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1">
