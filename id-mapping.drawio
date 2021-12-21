@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2021-12-20T11:59:52.886Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="RQvBLu34d3zLfttypkj8" version="15.9.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-21T02:24:35.424Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="zrcXtjPEOFep9WNyaK_L" version="15.9.4" type="github">
   <diagram id="OggHDC_XwhGOQqRmTYB_" name="Page-1">
-    <mxGraphModel dx="2159" dy="744" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3371" dy="1420" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="YP-snuiQqxFkFAlJXJVS-33" value="d" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="110" y="670" width="1175" height="700" as="geometry" />
+          <mxGeometry x="-730" y="1210" width="1175" height="700" as="geometry" />
         </mxCell>
         <mxCell id="YP-snuiQqxFkFAlJXJVS-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YP-snuiQqxFkFAlJXJVS-14" target="YP-snuiQqxFkFAlJXJVS-21">
           <mxGeometry relative="1" as="geometry" />
@@ -16,7 +16,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="YP-snuiQqxFkFAlJXJVS-14" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="240" y="830" width="150" height="150" as="geometry" />
+          <mxGeometry x="-600" y="1370" width="150" height="150" as="geometry" />
         </mxCell>
         <mxCell id="YP-snuiQqxFkFAlJXJVS-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YP-snuiQqxFkFAlJXJVS-15" target="YP-snuiQqxFkFAlJXJVS-23">
           <mxGeometry relative="1" as="geometry" />
@@ -27,7 +27,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="YP-snuiQqxFkFAlJXJVS-15" value="" style="rounded=1;whiteSpace=wrap;html=1;opacity=50;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="413.5" y="830" width="150" height="150" as="geometry" />
+          <mxGeometry x="-426.5" y="1370" width="150" height="150" as="geometry" />
         </mxCell>
         <mxCell id="4dGFSIArGV9XnBd7hIBl-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -204,46 +204,46 @@
           <mxGeometry x="-480" y="1109" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YP-snuiQqxFkFAlJXJVS-16" value="OAID1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;opacity=50;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="250" y="855" width="40" height="40" as="geometry" />
+          <mxGeometry x="-590" y="1395" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="YP-snuiQqxFkFAlJXJVS-18" value="OAID2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;opacity=50;" vertex="1" parent="1">
-          <mxGeometry x="420" y="855" width="40" height="40" as="geometry" />
+          <mxGeometry x="-420" y="1395" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="YP-snuiQqxFkFAlJXJVS-19" value="lat: 3" style="rounded=1;whiteSpace=wrap;html=1;opacity=50;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="320" y="760" width="150" height="150" as="geometry" />
+          <mxGeometry x="-520" y="1300" width="150" height="150" as="geometry" />
         </mxCell>
         <mxCell id="YP-snuiQqxFkFAlJXJVS-20" value="IMEI2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;opacity=50;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="500" y="920" width="40" height="40" as="geometry" />
+          <mxGeometry x="-340" y="1460" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="YP-snuiQqxFkFAlJXJVS-17" value="IMEI1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;opacity=50;" vertex="1" parent="1">
-          <mxGeometry x="330" y="855" width="40" height="40" as="geometry" />
+          <mxGeometry x="-510" y="1395" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="YP-snuiQqxFkFAlJXJVS-21" value="lat: 2" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="255" y="1105" width="120" height="60" as="geometry" />
+          <mxGeometry x="-585" y="1645" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YP-snuiQqxFkFAlJXJVS-23" value="lat: 1" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;opacity=50;" vertex="1" parent="1">
-          <mxGeometry x="428.5" y="1105" width="120" height="60" as="geometry" />
+          <mxGeometry x="-411.5" y="1645" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YP-snuiQqxFkFAlJXJVS-25" value="C" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;opacity=50;" vertex="1" parent="1">
-          <mxGeometry x="330" y="775" width="60" height="30" as="geometry" />
+          <mxGeometry x="-510" y="1315" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="YP-snuiQqxFkFAlJXJVS-26" value="A" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;opacity=50;" vertex="1" parent="1">
-          <mxGeometry x="260" y="930" width="60" height="30" as="geometry" />
+          <mxGeometry x="-580" y="1470" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="YP-snuiQqxFkFAlJXJVS-27" value="B" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;opacity=50;" vertex="1" parent="1">
-          <mxGeometry x="429" y="940" width="60" height="30" as="geometry" />
+          <mxGeometry x="-411" y="1480" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="YP-snuiQqxFkFAlJXJVS-30" value="实线圆代表必须有&lt;br&gt;虚线圆代表可有可无" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;opacity=50;" vertex="1" parent="1">
-          <mxGeometry x="205" y="730" width="130" height="30" as="geometry" />
+          <mxGeometry x="-635" y="1270" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="YP-snuiQqxFkFAlJXJVS-31" value="&lt;h1&gt;&lt;span style=&quot;font-size: 12px ; font-weight: 400&quot;&gt;两个虚线都存在的情况：&lt;/span&gt;&lt;/h1&gt;&lt;h1&gt;&lt;span style=&quot;font-size: 12px ; font-weight: normal&quot;&gt;先判断 A B 的最后活跃时间，假如 A 的最后活跃时间更晚，选A，A 再与 C 比较时间，选两者中最后活跃时间晚的，然后更新 A 的最后活跃时间为 C 的 lat. 但是不更改设备的归属方，只变更活跃时间&lt;/span&gt;&lt;br&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;dashed=1;opacity=50;" vertex="1" parent="1">
-          <mxGeometry x="250" y="1169" width="280" height="175" as="geometry" />
+          <mxGeometry x="-590" y="1709" width="280" height="175" as="geometry" />
         </mxCell>
         <mxCell id="YP-snuiQqxFkFAlJXJVS-34" value="只要一个设备有 one id&amp;nbsp;&lt;br&gt;暂定不会更改他的 one ID&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="214" y="680" width="161" height="30" as="geometry" />
+          <mxGeometry x="-626" y="1220" width="161" height="30" as="geometry" />
         </mxCell>
         <mxCell id="YP-snuiQqxFkFAlJXJVS-35" value="IMEI3" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;opacity=50;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="500" y="850" width="40" height="40" as="geometry" />
+          <mxGeometry x="-340" y="1390" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="YP-snuiQqxFkFAlJXJVS-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YP-snuiQqxFkFAlJXJVS-38" target="YP-snuiQqxFkFAlJXJVS-47">
           <mxGeometry relative="1" as="geometry" />
@@ -254,46 +254,46 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="YP-snuiQqxFkFAlJXJVS-38" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="805" y="803" width="150" height="150" as="geometry" />
+          <mxGeometry x="-35" y="1343" width="150" height="150" as="geometry" />
         </mxCell>
         <mxCell id="YP-snuiQqxFkFAlJXJVS-42" value="OAID1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;opacity=50;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="815" y="828" width="40" height="40" as="geometry" />
+          <mxGeometry x="-25" y="1368" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="YP-snuiQqxFkFAlJXJVS-43" value="OAID2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;opacity=50;" vertex="1" parent="1">
-          <mxGeometry x="985" y="828" width="40" height="40" as="geometry" />
+          <mxGeometry x="145" y="1368" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="YP-snuiQqxFkFAlJXJVS-44" value="lat: 3" style="rounded=1;whiteSpace=wrap;html=1;opacity=50;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="885" y="733" width="150" height="150" as="geometry" />
+          <mxGeometry x="45" y="1273" width="150" height="150" as="geometry" />
         </mxCell>
         <mxCell id="YP-snuiQqxFkFAlJXJVS-46" value="IMEI1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;opacity=50;" vertex="1" parent="1">
-          <mxGeometry x="895" y="828" width="40" height="40" as="geometry" />
+          <mxGeometry x="55" y="1368" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="YP-snuiQqxFkFAlJXJVS-47" value="lat: 2" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="820" y="1078" width="120" height="60" as="geometry" />
+          <mxGeometry x="-20" y="1618" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YP-snuiQqxFkFAlJXJVS-49" value="C" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;opacity=50;" vertex="1" parent="1">
-          <mxGeometry x="895" y="748" width="60" height="30" as="geometry" />
+          <mxGeometry x="55" y="1288" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="YP-snuiQqxFkFAlJXJVS-50" value="A" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;opacity=50;" vertex="1" parent="1">
-          <mxGeometry x="825" y="903" width="60" height="30" as="geometry" />
+          <mxGeometry x="-15" y="1443" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="YP-snuiQqxFkFAlJXJVS-52" value="实线圆代表必须有&lt;br&gt;虚线圆代表可有可无" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;opacity=50;" vertex="1" parent="1">
-          <mxGeometry x="770" y="703" width="130" height="30" as="geometry" />
+          <mxGeometry x="-70" y="1243" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="YP-snuiQqxFkFAlJXJVS-53" value="&lt;h1&gt;&lt;span style=&quot;font-size: 12px ; font-weight: 400&quot;&gt;当 C 中，只有一个设备找到了&amp;nbsp; oneid,&lt;/span&gt;&lt;/h1&gt;&lt;div&gt;另一个没有找到，则直接将 OAID2 的 oneid 置为&lt;/div&gt;&lt;div&gt;oneid, 然后 lat 置为 3&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;dashed=1;opacity=50;" vertex="1" parent="1">
-          <mxGeometry x="815" y="1142" width="280" height="175" as="geometry" />
+          <mxGeometry x="-25" y="1682" width="280" height="175" as="geometry" />
         </mxCell>
         <mxCell id="YP-snuiQqxFkFAlJXJVS-75" value="&lt;h1&gt;A&lt;/h1&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="185" y="990" width="29" height="40" as="geometry" />
+          <mxGeometry x="-655" y="1530" width="29" height="40" as="geometry" />
         </mxCell>
         <mxCell id="YP-snuiQqxFkFAlJXJVS-76" value="&lt;h1&gt;B&lt;/h1&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="1006" y="960" width="29" height="40" as="geometry" />
+          <mxGeometry x="166" y="1500" width="29" height="40" as="geometry" />
         </mxCell>
         <mxCell id="YP-snuiQqxFkFAlJXJVS-77" value="B 情况是既更新时间&lt;br&gt;又更新设备分组&lt;br&gt;A 情况只更新时间&lt;br&gt;&lt;div&gt;&lt;span&gt;不更新设备分组&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="600" y="990" width="170" height="90" as="geometry" />
+          <mxGeometry x="-240" y="1530" width="170" height="90" as="geometry" />
         </mxCell>
         <mxCell id="YP-snuiQqxFkFAlJXJVS-78" value="进阶：&lt;br&gt;如果在 oneid 的属性表里存储&lt;br&gt;对应的关联设备数目，当 A 里的虚线都是空的情况，也就是 A-A 是一个，A-B 是一个，就可以把 A-C 归到 A-A 了&lt;br&gt;---&lt;br&gt;或者先判断两侧的数量，如果有一侧存在的数量为 1，直接归到数量多的那一侧，时间都变成最近活跃，如果两个都为 1，把两个的信息合并" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="600" y="1142" width="170" height="208" as="geometry" />
+          <mxGeometry x="-240" y="1682" width="170" height="208" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
