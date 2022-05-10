@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-10T16:30:46.833Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="zeO8kW3ui8of5m-_iqok" version="18.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-10T17:48:59.444Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="RCAUModpMxHOc7_5tCuj" version="18.0.2" type="github">
   <diagram id="YpY__jbrcXNNC5kyAFuD" name="Page-1">
     <mxGraphModel dx="1773" dy="621" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -181,11 +181,53 @@
         <mxCell id="G2GB1lq3kF0XdgVzU6X7-57" value="res[0]=0代表不需要再往下走了&lt;br&gt;要么是不符合归因条件，要么是归因成功了" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="90" y="650" width="190" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="G2GB1lq3kF0XdgVzU6X7-58" value="到这里第一波归因逻辑结束，开启下一趴" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="G2GB1lq3kF0XdgVzU6X7-58" value="到这里第一波归因逻辑结束，这一波主要是 baidu, toutiao 等配置了 adver 的进行归因回传，其他不符合的走下面的逻辑" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="480" y="715" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="G2GB1lq3kF0XdgVzU6X7-59" value="" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="320" y="860" width="120" height="60" as="geometry" />
+        <mxCell id="G2GB1lq3kF0XdgVzU6X7-63" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="G2GB1lq3kF0XdgVzU6X7-59" target="G2GB1lq3kF0XdgVzU6X7-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G2GB1lq3kF0XdgVzU6X7-59" value="准备 this-&amp;gt;data 的值&lt;br&gt;callback_type, idfa&lt;br&gt;以及其他属性信息：&lt;br&gt;this-&amp;gt;momoid&lt;br&gt;this-&amp;gt; last_activate_time" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="860" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="G2GB1lq3kF0XdgVzU6X7-65" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="G2GB1lq3kF0XdgVzU6X7-62" target="G2GB1lq3kF0XdgVzU6X7-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G2GB1lq3kF0XdgVzU6X7-62" value="get(&#39;idfa&#39;, device_id)&lt;br&gt;拿到 channel&lt;br&gt;get(channel, device_id)&lt;br&gt;拿到 点击" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="1010" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="G2GB1lq3kF0XdgVzU6X7-67" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="G2GB1lq3kF0XdgVzU6X7-64" target="G2GB1lq3kF0XdgVzU6X7-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G2GB1lq3kF0XdgVzU6X7-64" value="拦截各种 fake 设备" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="1140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="G2GB1lq3kF0XdgVzU6X7-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="G2GB1lq3kF0XdgVzU6X7-66" target="G2GB1lq3kF0XdgVzU6X7-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G2GB1lq3kF0XdgVzU6X7-66" value="checkClient&lt;br&gt;校验快手系统是否跟点击一直" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="1250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="G2GB1lq3kF0XdgVzU6X7-68" value="？为什么只对快手检验" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="1270" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="G2GB1lq3kF0XdgVzU6X7-72" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="G2GB1lq3kF0XdgVzU6X7-69" target="G2GB1lq3kF0XdgVzU6X7-71">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G2GB1lq3kF0XdgVzU6X7-69" value="判断归因后的渠道是否启用" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="1350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="G2GB1lq3kF0XdgVzU6X7-74" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="G2GB1lq3kF0XdgVzU6X7-71" target="G2GB1lq3kF0XdgVzU6X7-73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G2GB1lq3kF0XdgVzU6X7-71" value="获取回调函数&lt;br&gt;执行回调函数&lt;br&gt;有很多其他操作：&lt;br&gt;设置 this-&amp;gt;agent_id 广告ID" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="1440" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="G2GB1lq3kF0XdgVzU6X7-73" value="回调成功后记录归因信息到 HBase" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="1560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="G2GB1lq3kF0XdgVzU6X7-75" value="这个单独拿出来开一个" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="1465" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
