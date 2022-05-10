@@ -1,1 +1,70 @@
-<mxfile host="app.diagrams.net" modified="2022-05-10T13:05:30.523Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" version="18.0.2" etag="n8tOl078_pAB5-jnCXmY" type="github"><diagram id="eV1n-cKcxaHLDgII3IWg">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-05-10T13:24:20.540Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="0YJq_-UzTpLa_uFd0mYe" version="18.0.2" type="github">
+  <diagram id="eV1n-cKcxaHLDgII3IWg" name="Page-1">
+    <mxGraphModel dx="946" dy="621" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="mHKnPrMuHIf7y4Xi-z2k-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="mHKnPrMuHIf7y4Xi-z2k-1" target="mHKnPrMuHIf7y4Xi-z2k-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mHKnPrMuHIf7y4Xi-z2k-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mHKnPrMuHIf7y4Xi-z2k-1" target="mHKnPrMuHIf7y4Xi-z2k-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mHKnPrMuHIf7y4Xi-z2k-1" value="点击入口&lt;br&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;; font-size: 14px; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;api/php/app/controller/ext/clicknotify_controller.php&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="80" width="340" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mHKnPrMuHIf7y4Xi-z2k-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mHKnPrMuHIf7y4Xi-z2k-2" target="mHKnPrMuHIf7y4Xi-z2k-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mHKnPrMuHIf7y4Xi-z2k-2" value="/gdtV3&lt;br&gt;/ toutiao&lt;br&gt;......" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="180" width="250" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="mHKnPrMuHIf7y4Xi-z2k-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="mHKnPrMuHIf7y4Xi-z2k-3" target="mHKnPrMuHIf7y4Xi-z2k-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mHKnPrMuHIf7y4Xi-z2k-3" value="getPk()&lt;br&gt;解析点击并包装设备 d_id, 并确定 pk" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="260" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mHKnPrMuHIf7y4Xi-z2k-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="mHKnPrMuHIf7y4Xi-z2k-16" target="mHKnPrMuHIf7y4Xi-z2k-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mHKnPrMuHIf7y4Xi-z2k-16" value="/huawei&lt;br&gt;/inmobi&lt;br&gt;......" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="180" width="250" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="mHKnPrMuHIf7y4Xi-z2k-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="mHKnPrMuHIf7y4Xi-z2k-18" target="mHKnPrMuHIf7y4Xi-z2k-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mHKnPrMuHIf7y4Xi-z2k-18" value="getRequestData&lt;br&gt;获取其他点击监测链接数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="260" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mHKnPrMuHIf7y4Xi-z2k-21" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="140" y="340" width="250" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="mHKnPrMuHIf7y4Xi-z2k-6" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="mHKnPrMuHIf7y4Xi-z2k-21">
+          <mxGeometry width="250" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="mHKnPrMuHIf7y4Xi-z2k-12" value="run()" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="mHKnPrMuHIf7y4Xi-z2k-21">
+          <mxGeometry width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mHKnPrMuHIf7y4Xi-z2k-13" value="get request params&lt;br&gt;获取其他点击 qs 数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="mHKnPrMuHIf7y4Xi-z2k-21">
+          <mxGeometry x="65" y="20" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mHKnPrMuHIf7y4Xi-z2k-14" value="setHBase(pk, channel, data)&lt;br&gt;点击数据入库" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="mHKnPrMuHIf7y4Xi-z2k-21">
+          <mxGeometry x="65" y="110" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="mHKnPrMuHIf7y4Xi-z2k-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="mHKnPrMuHIf7y4Xi-z2k-21" source="mHKnPrMuHIf7y4Xi-z2k-13" target="mHKnPrMuHIf7y4Xi-z2k-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mHKnPrMuHIf7y4Xi-z2k-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="mHKnPrMuHIf7y4Xi-z2k-25" target="mHKnPrMuHIf7y4Xi-z2k-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mHKnPrMuHIf7y4Xi-z2k-25" value="getPk()&lt;br&gt;解析点击并包装设备 d_id, 并确定 pk" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="340" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mHKnPrMuHIf7y4Xi-z2k-33" value="&lt;span style=&quot;&quot;&gt;setHBase(pk, channel, data)&lt;/span&gt;&lt;br style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;点击数据入库&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="420" width="250" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
