@@ -1,1 +1,193 @@
-<mxfile host="app.diagrams.net" modified="2022-05-10T13:29:22.673Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" version="18.0.2" etag="TDFDJsoLddh00AwVEMer" type="github"><diagram id="YpY__jbrcXNNC5kyAFuD">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-05-10T16:30:46.833Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="zeO8kW3ui8of5m-_iqok" version="18.0.2" type="github">
+  <diagram id="YpY__jbrcXNNC5kyAFuD" name="Page-1">
+    <mxGraphModel dx="1773" dy="621" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="G2GB1lq3kF0XdgVzU6X7-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="G2GB1lq3kF0XdgVzU6X7-1" target="G2GB1lq3kF0XdgVzU6X7-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G2GB1lq3kF0XdgVzU6X7-1" value="入口&lt;br&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;; font-size: 14px; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;api/php/app/controller/v1/inner/idfa_controller.php::run()&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="90" width="360" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="G2GB1lq3kF0XdgVzU6X7-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="G2GB1lq3kF0XdgVzU6X7-2" target="G2GB1lq3kF0XdgVzU6X7-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G2GB1lq3kF0XdgVzU6X7-2" value="设置 _uid 为解析到的设备信息 idfa" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="280" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="G2GB1lq3kF0XdgVzU6X7-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="G2GB1lq3kF0XdgVzU6X7-3" target="G2GB1lq3kF0XdgVzU6X7-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G2GB1lq3kF0XdgVzU6X7-3" value="解析各个事件数据&lt;br&gt;到 $params" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="180" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="G2GB1lq3kF0XdgVzU6X7-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="G2GB1lq3kF0XdgVzU6X7-4" target="G2GB1lq3kF0XdgVzU6X7-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G2GB1lq3kF0XdgVzU6X7-7" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="G2GB1lq3kF0XdgVzU6X7-6">
+          <mxGeometry x="-0.1778" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G2GB1lq3kF0XdgVzU6X7-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="G2GB1lq3kF0XdgVzU6X7-4" target="G2GB1lq3kF0XdgVzU6X7-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G2GB1lq3kF0XdgVzU6X7-16" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="G2GB1lq3kF0XdgVzU6X7-15">
+          <mxGeometry x="-0.2889" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G2GB1lq3kF0XdgVzU6X7-4" value="获取 asa token&lt;br&gt;&amp;amp;&amp;amp; 从配置里拿 asa &lt;br&gt;开关" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="370" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="G2GB1lq3kF0XdgVzU6X7-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="G2GB1lq3kF0XdgVzU6X7-5" target="G2GB1lq3kF0XdgVzU6X7-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G2GB1lq3kF0XdgVzU6X7-5" value="ASA 归因" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="G2GB1lq3kF0XdgVzU6X7-12" value="exit" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="G2GB1lq3kF0XdgVzU6X7-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="G2GB1lq3kF0XdgVzU6X7-14" target="G2GB1lq3kF0XdgVzU6X7-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G2GB1lq3kF0XdgVzU6X7-14" value="检查设备信息&lt;br&gt;设置 this-&amp;gt;idfa 为设备值this-&amp;gt;_uidType为类型" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="315" y="490" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="G2GB1lq3kF0XdgVzU6X7-17" value="疑问：这里的跟后面的 checkIdfa&lt;br&gt;为什么不一起做" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="295" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="G2GB1lq3kF0XdgVzU6X7-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="G2GB1lq3kF0XdgVzU6X7-19" target="G2GB1lq3kF0XdgVzU6X7-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G2GB1lq3kF0XdgVzU6X7-19" value="manager_device-&amp;gt;run()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="317.5" y="590" width="125" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="G2GB1lq3kF0XdgVzU6X7-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="G2GB1lq3kF0XdgVzU6X7-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-270" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G2GB1lq3kF0XdgVzU6X7-20" value="manager_device-&amp;gt;run()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-332.5" y="90" width="125" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="G2GB1lq3kF0XdgVzU6X7-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="G2GB1lq3kF0XdgVzU6X7-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-420" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G2GB1lq3kF0XdgVzU6X7-26" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="G2GB1lq3kF0XdgVzU6X7-25">
+          <mxGeometry x="0.0353" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G2GB1lq3kF0XdgVzU6X7-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="G2GB1lq3kF0XdgVzU6X7-23" target="G2GB1lq3kF0XdgVzU6X7-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G2GB1lq3kF0XdgVzU6X7-23" value="&lt;span style=&quot;&quot;&gt;判定配置文件开关&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-335" y="200" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="G2GB1lq3kF0XdgVzU6X7-27" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-537.5" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="G2GB1lq3kF0XdgVzU6X7-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="G2GB1lq3kF0XdgVzU6X7-28" target="G2GB1lq3kF0XdgVzU6X7-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G2GB1lq3kF0XdgVzU6X7-32" value="无效" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="G2GB1lq3kF0XdgVzU6X7-31">
+          <mxGeometry x="-0.1765" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G2GB1lq3kF0XdgVzU6X7-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="G2GB1lq3kF0XdgVzU6X7-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-270" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G2GB1lq3kF0XdgVzU6X7-28" value="&lt;span style=&quot;&quot;&gt;校验 idfa&lt;br&gt;校验系统&lt;br&gt;校验事件类型&lt;br&gt;&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-335" y="320" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="G2GB1lq3kF0XdgVzU6X7-30" value="返回 0" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-540" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="G2GB1lq3kF0XdgVzU6X7-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="G2GB1lq3kF0XdgVzU6X7-35" target="G2GB1lq3kF0XdgVzU6X7-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G2GB1lq3kF0XdgVzU6X7-35" value="保存事件设备与时间到 HBase" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-330" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="G2GB1lq3kF0XdgVzU6X7-36" value="键是 click, click_android&lt;br&gt;field 是 $idfa val 是 time" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-500" y="455" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="G2GB1lq3kF0XdgVzU6X7-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="G2GB1lq3kF0XdgVzU6X7-37" target="G2GB1lq3kF0XdgVzU6X7-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G2GB1lq3kF0XdgVzU6X7-37" value="根据不同的系统从&lt;br&gt;HBase 里拿channel信息" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-330" y="555" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="G2GB1lq3kF0XdgVzU6X7-39" value="点击时存储的信息&lt;br&gt;key: idfa field: device_id val:channel" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-500" y="570" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="G2GB1lq3kF0XdgVzU6X7-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="G2GB1lq3kF0XdgVzU6X7-40" target="G2GB1lq3kF0XdgVzU6X7-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G2GB1lq3kF0XdgVzU6X7-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="G2GB1lq3kF0XdgVzU6X7-40" target="G2GB1lq3kF0XdgVzU6X7-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G2GB1lq3kF0XdgVzU6X7-40" value="是否有 channel" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-337.5" y="660" width="135" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="G2GB1lq3kF0XdgVzU6X7-42" value="有就说明至少有一个点击&lt;br&gt;的设备对应了这个 channel" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-450" y="740" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="G2GB1lq3kF0XdgVzU6X7-43" value="返回 0" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-533" y="670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="G2GB1lq3kF0XdgVzU6X7-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="G2GB1lq3kF0XdgVzU6X7-46" target="G2GB1lq3kF0XdgVzU6X7-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G2GB1lq3kF0XdgVzU6X7-46" value="根据拿到的 channel 结合 device_id 去找点击" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-330" y="830" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="G2GB1lq3kF0XdgVzU6X7-48" value="点击时存储的信息&lt;br&gt;key: channel field: device_id val: click_data" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-540" y="840" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="G2GB1lq3kF0XdgVzU6X7-49" value="......" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-330" y="970" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="G2GB1lq3kF0XdgVzU6X7-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="G2GB1lq3kF0XdgVzU6X7-52" target="G2GB1lq3kF0XdgVzU6X7-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G2GB1lq3kF0XdgVzU6X7-56" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="G2GB1lq3kF0XdgVzU6X7-55">
+          <mxGeometry x="0.0875" y="-2" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G2GB1lq3kF0XdgVzU6X7-60" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="G2GB1lq3kF0XdgVzU6X7-52" target="G2GB1lq3kF0XdgVzU6X7-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G2GB1lq3kF0XdgVzU6X7-61" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="G2GB1lq3kF0XdgVzU6X7-60">
+          <mxGeometry x="-0.3667" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G2GB1lq3kF0XdgVzU6X7-52" value="是否往下走" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="690" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="G2GB1lq3kF0XdgVzU6X7-54" value="exit" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="G2GB1lq3kF0XdgVzU6X7-57" value="res[0]=0代表不需要再往下走了&lt;br&gt;要么是不符合归因条件，要么是归因成功了" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="650" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="G2GB1lq3kF0XdgVzU6X7-58" value="到这里第一波归因逻辑结束，开启下一趴" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="715" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="G2GB1lq3kF0XdgVzU6X7-59" value="" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="860" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
