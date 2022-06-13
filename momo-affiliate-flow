@@ -1,1 +1,86 @@
-<mxfile host="app.diagrams.net" modified="2022-06-13T07:33:49.204Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" version="20.0.1" etag="1ry7mv63YsUZFUZrgVw3" type="github"><diagram id="uuf3PzG7gSweLMr1qQOb">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-06-13T09:46:58.965Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="3ZfDmU7xjS0_XvgDj5ZG" version="20.0.1" type="github">
+  <diagram id="uuf3PzG7gSweLMr1qQOb" name="Page-1">
+    <mxGraphModel dx="1186" dy="621" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="K9rXkqVwYkQLR0A7ypQS-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="K9rXkqVwYkQLR0A7ypQS-1" target="K9rXkqVwYkQLR0A7ypQS-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K9rXkqVwYkQLR0A7ypQS-5" value="momo ocpx" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="K9rXkqVwYkQLR0A7ypQS-4">
+          <mxGeometry x="0.18" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K9rXkqVwYkQLR0A7ypQS-1" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="120" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K9rXkqVwYkQLR0A7ypQS-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="K9rXkqVwYkQLR0A7ypQS-3" target="K9rXkqVwYkQLR0A7ypQS-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K9rXkqVwYkQLR0A7ypQS-3" value="momo nginx" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="155" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K9rXkqVwYkQLR0A7ypQS-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="K9rXkqVwYkQLR0A7ypQS-6" target="K9rXkqVwYkQLR0A7ypQS-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="215" y="520" />
+              <mxPoint x="543" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K9rXkqVwYkQLR0A7ypQS-6" value="tantan gateway" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="155" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K9rXkqVwYkQLR0A7ypQS-8" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="115" width="405" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="K9rXkqVwYkQLR0A7ypQS-11" value="affiliate" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="685" y="115" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="K9rXkqVwYkQLR0A7ypQS-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="K9rXkqVwYkQLR0A7ypQS-12" target="K9rXkqVwYkQLR0A7ypQS-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K9rXkqVwYkQLR0A7ypQS-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="K9rXkqVwYkQLR0A7ypQS-12" target="K9rXkqVwYkQLR0A7ypQS-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K9rXkqVwYkQLR0A7ypQS-12" value="转换 tanan 点击" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K9rXkqVwYkQLR0A7ypQS-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="K9rXkqVwYkQLR0A7ypQS-13" target="K9rXkqVwYkQLR0A7ypQS-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K9rXkqVwYkQLR0A7ypQS-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="K9rXkqVwYkQLR0A7ypQS-13" target="K9rXkqVwYkQLR0A7ypQS-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K9rXkqVwYkQLR0A7ypQS-13" value="陌陌 点击" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K9rXkqVwYkQLR0A7ypQS-15" value="解析同步到 HBase" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K9rXkqVwYkQLR0A7ypQS-18" value="&lt;h1&gt;&lt;span style=&quot;background-color: initial; font-size: 12px; font-weight: normal;&quot;&gt;基于 affiliate 进行归因和回传，同步数据到 HBase 和 kafka&lt;/span&gt;&lt;br&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="20" width="391" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="K9rXkqVwYkQLR0A7ypQS-19" value="解析同步到 pg" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K9rXkqVwYkQLR0A7ypQS-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="K9rXkqVwYkQLR0A7ypQS-21" target="K9rXkqVwYkQLR0A7ypQS-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K9rXkqVwYkQLR0A7ypQS-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="K9rXkqVwYkQLR0A7ypQS-21" target="K9rXkqVwYkQLR0A7ypQS-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K9rXkqVwYkQLR0A7ypQS-21" value="归因" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K9rXkqVwYkQLR0A7ypQS-23" value="同步结果到 pg&lt;br&gt;同步结果到 HBase" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K9rXkqVwYkQLR0A7ypQS-25" value="回传" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
