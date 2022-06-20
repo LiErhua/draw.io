@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-20T01:56:10.730Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="51EjQyAp6TRWpry9uG1X" version="20.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-20T01:56:58.417Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="rRvhBTkZMIo_CM5V8-LM" version="20.0.1" type="github">
   <diagram id="uuf3PzG7gSweLMr1qQOb" name="Page-1">
     <mxGraphModel dx="1311" dy="828" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1611,7 +1611,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="K9rXkqVwYkQLR0A7ypQS-550" value="各 APP 隔离&lt;br&gt;的归因" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="K9rXkqVwYkQLR0A7ypQS-550" value="各 APP 隔离&lt;br&gt;的归因" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="1523" y="465" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="K9rXkqVwYkQLR0A7ypQS-551" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.331;entryY=-0.105;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
@@ -1649,7 +1649,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="K9rXkqVwYkQLR0A7ypQS-557" value="投放平台" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3c800;strokeColor=#B09500;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="K9rXkqVwYkQLR0A7ypQS-557" value="权限分明的&lt;br&gt;投放平台" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3c800;strokeColor=#B09500;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="1253" y="465" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="K9rXkqVwYkQLR0A7ypQS-558" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.048;entryY=0.852;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" source="K9rXkqVwYkQLR0A7ypQS-560" target="K9rXkqVwYkQLR0A7ypQS-562">
