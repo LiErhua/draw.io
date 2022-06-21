@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-21T12:17:12.751Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="GimWAMtBhmqVH_3DcY-8" version="20.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-21T12:22:14.114Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="Z8H7facwFhe5803c8TiH" version="20.0.1" type="github">
   <diagram id="uuf3PzG7gSweLMr1qQOb" name="Page-1">
     <mxGraphModel dx="1311" dy="828" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2313,8 +2313,16 @@
             <mxPoint x="4574.066666666667" y="4700" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="K9rXkqVwYkQLR0A7ypQS-800" value="携带设备同时又携带包" style="rhombus;whiteSpace=wrap;html=1;fontSize=14;fillColor=default;" vertex="1" parent="1">
+        <mxCell id="K9rXkqVwYkQLR0A7ypQS-800" value="携带设备" style="rhombus;whiteSpace=wrap;html=1;fontSize=14;fillColor=default;" vertex="1" parent="1">
           <mxGeometry x="4500" y="4175" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="K9rXkqVwYkQLR0A7ypQS-809" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;startArrow=none;startFill=0;endArrow=classic;endFill=1;strokeColor=#000000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="K9rXkqVwYkQLR0A7ypQS-801" target="K9rXkqVwYkQLR0A7ypQS-810">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="4730" y="4380" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="4735" y="4320" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="K9rXkqVwYkQLR0A7ypQS-801" value="是否来自商店" style="rhombus;whiteSpace=wrap;html=1;fontSize=14;fillColor=default;" vertex="1" parent="1">
           <mxGeometry x="4500" y="4280" width="150" height="80" as="geometry" />
@@ -2325,8 +2333,8 @@
         <mxCell id="K9rXkqVwYkQLR0A7ypQS-803" value="非配置化&lt;br&gt;硬编码" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="4360" y="4255" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="K9rXkqVwYkQLR0A7ypQS-808" value="未携带设备&lt;br&gt;但是有 ip ua" style="rhombus;whiteSpace=wrap;html=1;fontSize=14;fillColor=default;" vertex="1" parent="1">
-          <mxGeometry x="4500" y="4510" width="150" height="80" as="geometry" />
+        <mxCell id="K9rXkqVwYkQLR0A7ypQS-810" value="是否是 iOS" style="rhombus;whiteSpace=wrap;html=1;fontSize=14;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="4660" y="4390" width="150" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
