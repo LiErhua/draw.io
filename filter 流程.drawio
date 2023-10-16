@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-16T08:48:13.675Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="IuPOWzcT4e4qqvEo25d7" version="21.7.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-16T09:32:58.878Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="ttbXbttjQHV8aPn0zfvO" version="21.7.5" type="github">
   <diagram name="第 1 页" id="otSAY9CgEEkEDT3XQxLB">
     <mxGraphModel dx="1006" dy="686" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -13,7 +13,7 @@
         <mxCell id="A11zUQWiEe7H9cIYcWB2-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="A11zUQWiEe7H9cIYcWB2-2" target="A11zUQWiEe7H9cIYcWB2-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="A11zUQWiEe7H9cIYcWB2-18" value="回传策略判定" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="A11zUQWiEe7H9cIYcWB2-12">
+        <mxCell id="A11zUQWiEe7H9cIYcWB2-18" value="回传策略判定&lt;br&gt;collection topic" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="A11zUQWiEe7H9cIYcWB2-12">
           <mxGeometry x="-0.1846" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -58,10 +58,15 @@
           <mxGeometry x="20" y="300" width="80" height="60" as="geometry" />
         </mxCell>
         <mxCell id="A11zUQWiEe7H9cIYcWB2-19" value="回传层" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="670" y="300" width="80" height="60" as="geometry" />
+          <mxGeometry x="760" y="300" width="80" height="60" as="geometry" />
         </mxCell>
         <mxCell id="A11zUQWiEe7H9cIYcWB2-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="A11zUQWiEe7H9cIYcWB2-9" target="A11zUQWiEe7H9cIYcWB2-19">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A11zUQWiEe7H9cIYcWB2-21" value="callback topic" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="A11zUQWiEe7H9cIYcWB2-20">
+          <mxGeometry x="-0.2333" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
