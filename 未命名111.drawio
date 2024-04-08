@@ -1,63 +1,63 @@
-<mxfile host="app.diagrams.net" modified="2024-03-15T07:02:45.228Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0" etag="NUyYFuM9RMYOe7RamwLw" version="24.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-08T09:14:06.931Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0" etag="ae2APAcHPI-OpXDcxVIE" version="24.0.6" type="github">
   <diagram name="第 1 页" id="luUa3x-zF29XC0FdDQNf">
-    <mxGraphModel dx="1018" dy="655" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1419" dy="766" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="OSFjAgUg1LQSUXFtFIDo-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OSFjAgUg1LQSUXFtFIDo-1" target="OSFjAgUg1LQSUXFtFIDo-2">
+        <mxCell id="OSFjAgUg1LQSUXFtFIDo-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="OSFjAgUg1LQSUXFtFIDo-1" target="OSFjAgUg1LQSUXFtFIDo-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="OSFjAgUg1LQSUXFtFIDo-4" value="PUSH API" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="OSFjAgUg1LQSUXFtFIDo-3">
+        <mxCell id="OSFjAgUg1LQSUXFtFIDo-4" value="PUSH API" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="OSFjAgUg1LQSUXFtFIDo-3" vertex="1" connectable="0">
           <mxGeometry x="-0.12" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="OSFjAgUg1LQSUXFtFIDo-1" value="appsflyer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="OSFjAgUg1LQSUXFtFIDo-1" value="appsflyer" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="220" y="180" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="OSFjAgUg1LQSUXFtFIDo-2" value="api 服务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="OSFjAgUg1LQSUXFtFIDo-2" value="api 服务" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="220" y="340" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="OSFjAgUg1LQSUXFtFIDo-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="OSFjAgUg1LQSUXFtFIDo-6" target="OSFjAgUg1LQSUXFtFIDo-7">
+        <mxCell id="OSFjAgUg1LQSUXFtFIDo-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="OSFjAgUg1LQSUXFtFIDo-6" target="OSFjAgUg1LQSUXFtFIDo-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="OSFjAgUg1LQSUXFtFIDo-12" value="付费事件" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="OSFjAgUg1LQSUXFtFIDo-11">
+        <mxCell id="OSFjAgUg1LQSUXFtFIDo-12" value="付费事件" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="OSFjAgUg1LQSUXFtFIDo-11" vertex="1" connectable="0">
           <mxGeometry x="-0.04" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="OSFjAgUg1LQSUXFtFIDo-6" value="IDFA 服务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="OSFjAgUg1LQSUXFtFIDo-6" value="IDFA 服务" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="480" y="180" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="OSFjAgUg1LQSUXFtFIDo-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="OSFjAgUg1LQSUXFtFIDo-7" target="OSFjAgUg1LQSUXFtFIDo-1">
+        <mxCell id="OSFjAgUg1LQSUXFtFIDo-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="OSFjAgUg1LQSUXFtFIDo-7" target="OSFjAgUg1LQSUXFtFIDo-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="OSFjAgUg1LQSUXFtFIDo-17" value="S2S 付费事件" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="OSFjAgUg1LQSUXFtFIDo-16">
+        <mxCell id="OSFjAgUg1LQSUXFtFIDo-17" value="S2S 付费事件" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="OSFjAgUg1LQSUXFtFIDo-16" vertex="1" connectable="0">
           <mxGeometry x="-0.1067" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="OSFjAgUg1LQSUXFtFIDo-7" value="srv 服务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="OSFjAgUg1LQSUXFtFIDo-7" value="srv 服务" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="480" y="340" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="OSFjAgUg1LQSUXFtFIDo-8" value="DB" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="OSFjAgUg1LQSUXFtFIDo-8" value="DB" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="220" y="480" width="380" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="OSFjAgUg1LQSUXFtFIDo-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.158;entryY=-0.033;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="OSFjAgUg1LQSUXFtFIDo-2" target="OSFjAgUg1LQSUXFtFIDo-8">
+        <mxCell id="OSFjAgUg1LQSUXFtFIDo-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.158;entryY=-0.033;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="OSFjAgUg1LQSUXFtFIDo-2" target="OSFjAgUg1LQSUXFtFIDo-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="OSFjAgUg1LQSUXFtFIDo-10" value="激活，注册，登录等事件" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="OSFjAgUg1LQSUXFtFIDo-9">
+        <mxCell id="OSFjAgUg1LQSUXFtFIDo-10" value="激活，注册，登录等事件" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="OSFjAgUg1LQSUXFtFIDo-9" vertex="1" connectable="0">
           <mxGeometry x="0.0254" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="OSFjAgUg1LQSUXFtFIDo-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.845;exitY=-0.017;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="OSFjAgUg1LQSUXFtFIDo-8">
+        <mxCell id="OSFjAgUg1LQSUXFtFIDo-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.845;exitY=-0.017;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="OSFjAgUg1LQSUXFtFIDo-8" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="490" y="450" as="sourcePoint" />
             <mxPoint x="540" y="400" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="OSFjAgUg1LQSUXFtFIDo-15" value="判定是否为 AF 归因" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="OSFjAgUg1LQSUXFtFIDo-14">
+        <mxCell id="OSFjAgUg1LQSUXFtFIDo-15" value="判定是否为 AF 归因" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="OSFjAgUg1LQSUXFtFIDo-14" vertex="1" connectable="0">
           <mxGeometry x="0.0372" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
