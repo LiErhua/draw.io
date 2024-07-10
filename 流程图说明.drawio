@@ -1,9 +1,81 @@
-<mxfile host="app.diagrams.net" modified="2024-07-10T09:34:43.419Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 Edg/128.0.0.0" version="24.5.5" etag="54zV6uIm_7xd8L4m4ohy" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-10T10:10:11.341Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 Edg/128.0.0.0" etag="3-tSsUCON1xvcCfqA7-n" version="24.5.5" type="github">
   <diagram name="第 1 页" id="T0KIjRcX8x9uFVAZ6Upe">
-    <mxGraphModel>
+    <mxGraphModel dx="1018" dy="661" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="QinMyIyqF96kxNr2yf8--24" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="580" y="310" width="350" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="QinMyIyqF96kxNr2yf8--2" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;实时数据处理与分析&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;dashed=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="QinMyIyqF96kxNr2yf8--24">
+          <mxGeometry width="350" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="QinMyIyqF96kxNr2yf8--3" value="数据采集（Kafka)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;glass=1;shadow=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="QinMyIyqF96kxNr2yf8--24">
+          <mxGeometry x="20" y="30" width="310" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="QinMyIyqF96kxNr2yf8--4" value="数据处理(Flink)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;glass=1;shadow=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="QinMyIyqF96kxNr2yf8--24">
+          <mxGeometry x="20" y="100" width="310" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="QinMyIyqF96kxNr2yf8--5" value="关键事件生成" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;glass=1;shadow=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="QinMyIyqF96kxNr2yf8--24">
+          <mxGeometry x="20" y="170" width="310" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="QinMyIyqF96kxNr2yf8--18" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;实时数据处理与分析&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="QinMyIyqF96kxNr2yf8--24">
+          <mxGeometry x="20" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QinMyIyqF96kxNr2yf8--25" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="960" y="310" width="350" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="QinMyIyqF96kxNr2yf8--6" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;dashed=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="QinMyIyqF96kxNr2yf8--25">
+          <mxGeometry width="350" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="QinMyIyqF96kxNr2yf8--7" value="数据聚合（数据采集服务)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;glass=1;shadow=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="QinMyIyqF96kxNr2yf8--25">
+          <mxGeometry x="20" y="30" width="310" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="QinMyIyqF96kxNr2yf8--8" value="数据归一整合（ID-Mapping）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;glass=1;shadow=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="QinMyIyqF96kxNr2yf8--25">
+          <mxGeometry x="20" y="100" width="310" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="QinMyIyqF96kxNr2yf8--9" value="数据同步" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;glass=1;shadow=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="QinMyIyqF96kxNr2yf8--25">
+          <mxGeometry x="20" y="170" width="310" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="QinMyIyqF96kxNr2yf8--21" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;跨平台数据整合与统一&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fillColor=none;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="QinMyIyqF96kxNr2yf8--25">
+          <mxGeometry x="20" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="QinMyIyqF96kxNr2yf8--26" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="580" y="585" width="350" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="QinMyIyqF96kxNr2yf8--10" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;用户行为数据的归因分析&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;dashed=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="QinMyIyqF96kxNr2yf8--26">
+          <mxGeometry width="350" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="QinMyIyqF96kxNr2yf8--11" value="数据清洗" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;glass=1;shadow=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="QinMyIyqF96kxNr2yf8--26">
+          <mxGeometry x="20" y="30" width="310" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="QinMyIyqF96kxNr2yf8--12" value="模型训练（机器学习算法）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;glass=1;shadow=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="QinMyIyqF96kxNr2yf8--26">
+          <mxGeometry x="20" y="100" width="310" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="QinMyIyqF96kxNr2yf8--13" value="归因分析（复杂网络分析）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;glass=1;shadow=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="QinMyIyqF96kxNr2yf8--26">
+          <mxGeometry x="20" y="170" width="310" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="QinMyIyqF96kxNr2yf8--19" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;用户行为数据的归因分析&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="QinMyIyqF96kxNr2yf8--26">
+          <mxGeometry x="20" y="7" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="QinMyIyqF96kxNr2yf8--27" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="960" y="585" width="350" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="QinMyIyqF96kxNr2yf8--14" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;dashed=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="QinMyIyqF96kxNr2yf8--27">
+          <mxGeometry width="350" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="QinMyIyqF96kxNr2yf8--15" value="数据监控" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;glass=1;shadow=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="QinMyIyqF96kxNr2yf8--27">
+          <mxGeometry x="20" y="30" width="310" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="QinMyIyqF96kxNr2yf8--16" value="数据分析（Doris）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;glass=1;shadow=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="QinMyIyqF96kxNr2yf8--27">
+          <mxGeometry x="20" y="100" width="310" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="QinMyIyqF96kxNr2yf8--17" value="策略优化（业务规则引擎）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;glass=1;shadow=1;gradientColor=none;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="QinMyIyqF96kxNr2yf8--27">
+          <mxGeometry x="20" y="170" width="310" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="QinMyIyqF96kxNr2yf8--20" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;广告投放效果的实时监控&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;与优化&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="QinMyIyqF96kxNr2yf8--27">
+          <mxGeometry x="20" y="7" width="190" height="20" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
